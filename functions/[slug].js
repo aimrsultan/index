@@ -38,12 +38,12 @@ export async function onRequest(context){
 						({ layout } = await import("../lib/ferdy/render"));
 						break;
 
-					case "Aplikasi ai":
-						({ layout } = await import("../lib/renderA"));
+					case "Robo":
+						({ layout } = await import("../lib/robo/render"));
 						break;
 
 					default:
-						({ layout } = await import("../lib/renderhome"));
+						({ layout } = await import("../lib/render"));
 				}
 
 				const posts=await getPosts();
