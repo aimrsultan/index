@@ -1,4 +1,4 @@
-import { layout } from "../lib/renderhome";
+import { layout } from "../lib/render";
 import { getPosts } from "../lib/api";
 import { SITE, canonical, sanitizeSlug, cardImage, ogImage, escapeHTML } from "../lib/config";
 import { seo } from "../lib/seo";
