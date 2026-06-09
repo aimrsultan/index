@@ -35,7 +35,7 @@ export async function onRequest(context){
 				switch(post.kategori){
 
 					case "aimrferdy":
-						({ layout } = await import("../lib/render"));
+						({ layout } = await import("../lib/ferdy/render"));
 						break;
 
 					case "Aplikasi ai":
