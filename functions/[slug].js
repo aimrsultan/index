@@ -38,7 +38,7 @@ export async function onRequest(context){
 						({ layout } = await import("../lib/ferdy/render"));
 						break;
 
-					case "Robo":
+					case "robopragma":
 						({ layout } = await import("../lib/robo/render"));
 						break;
 
