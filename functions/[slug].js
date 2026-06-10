@@ -86,7 +86,7 @@ href="/kategori/${sanitizeSlug(post.kategori)}">
 ${escapeHTML(post.kategori)}
 </a>
 <span>›</span>
-<span>${escapeHTML(post.title)}</span>
+${escapeHTML(post.title)}
 </nav>
 `;
 
