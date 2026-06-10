@@ -85,7 +85,7 @@ ${page.name} Resmi
 href="/kategori/${sanitizeSlug(post.kategori)}">
 ${escapeHTML(post.kategori)}
 </a>
-${escapeHTML(post.title)}
+
 </nav>
 `;
 
