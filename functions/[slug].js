@@ -302,8 +302,13 @@ ${breadcrumb}
 </div>
 <div bis_skin_checked='1' class='box--no-padding'>
 <div bis_skin_checked='1' class='item-preview live-preview-btn--blue -preview-live'>
-<a href='https://server1.mrferdy.workers.dev' target='_blank'><img alt='- WooCommerce eCommerce' height='500' sizes='(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px' src='${postImage(og,post.title)}' srcset='${postImage(og,post.title)}' width='500'/></a>
-<div bis_skin_checked='1' class='js- item-preview-image__gallery' data-title='${postImage(og, post.title)} - WooCommerce eCommerce Screenshots Gallery' data-url='marketica-marketplace-wordpress-theme/screenshots/modal/8988002'>
+<a href='https://server1.mrferdy.workers.dev' target='_blank'>
+
+<img alt='- WooCommerce eCommerce' height='500' sizes='(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px' src='${postImage(og,post.title)}' srcset='${postImage(og,post.title)}' width='500'/></a>
+<div bis_skin_checked='1' class='js- item-preview-image__gallery' data-title='${postImage(og, post.title)}' data-url='marketica-marketplace-wordpress-theme/screenshots/modal/8988002'>
+
+
+
 <a class='is-hidden' href='https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/00-marketica-preview-sale37.jpg'>MARKETICA_PREVIEW/00-marketica-preview-sale37.jpg</a>
 <a class='is-hidden' href='https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/01_marketica2_homepage.png'>MARKETICA_PREVIEW/01_marketica2_homepage.png</a>
 <a class='is-hidden' href='https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/02_marketica2_shop_page.png'>MARKETICA_PREVIEW/02_marketica2_shop_page.png</a>
