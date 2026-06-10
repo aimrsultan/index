@@ -76,7 +76,7 @@ String(post.content || "")
 <nav class='breadcrumbs h-text-truncate  '>
 <a href="/">Home</a>
 <span>›</span>
-<a class='js-breadcrumb-category' href='${page.canonical}'>${page.name} Resmi</a>
+<a class='js-breadcrumb-category' href='${url}'>${page.name} Resmi</a>
 <span>›</span>
 <a class='js-breadcrumb-category'href="/kategori/${sanitizeSlug(post.kategori)}">${escapeHTML(post.kategori)}</a>
 <span>›</span>
@@ -117,11 +117,11 @@ ${breadcrumb}
 <div bis_skin_checked='1' class='item-header' data-view='itemHeader'>
 <div bis_skin_checked='1' class='item-header__top'>
 <div bis_skin_checked='1' class='item-header__title'>
-<h1 class='t-heading -color-inherit -size-l h-m0 is-hidden-phone'>${page.title}</h1>
-<h1 class='t-heading -color-inherit -size-xs h-m0 is-hidden-tablet-and-above'> ${page.title} </h1>
+<h1 class='t-heading -color-inherit -size-l h-m0 is-hidden-phone'>${escapeHTML(post.title)}</h1>
+<h1 class='t-heading -color-inherit -size-xs h-m0 is-hidden-tablet-and-above'> ${escapeHTML(post.title)} </h1>
 </div>
 <div bis_skin_checked='1' class='item-header__price is-hidden-desktop'>
-<a class='js-item-header__cart-button e-btn--3d -color-primary -size-m' data-view='modalAjax' href='${page.canonical}' rel='nofollow' title='Add to Cart'>
+<a class='js-item-header__cart-button e-btn--3d -color-primary -size-m' data-view='modalAjax' href='${url}' rel='nofollow' title='Add to Cart'>
 <span class='item-header__cart-button-icon'>
 <i class='e-icon -icon-cart -margin-right'></i>
 </span>
@@ -133,7 +133,7 @@ ${breadcrumb}
 </div>
 <div bis_skin_checked='1' class='item-header__details-section'>
 <div bis_skin_checked='1' class='item-header__author-details'>
-                                        By: <a class='js-by-author' href='${page.canonical}' rel='author'>AI MR FERDY</a>
+                                        By: <a class='js-by-author' href='${url}' rel='author'>AI MR FERDY</a>
 </div>
 <div bis_skin_checked='1' class='item-header__sales-count'>
 <svg aria-labelledby='title' class='item-header__sales-count-icon' height='16px' role='img' viewBox='0 0 16 16' width='16px' xmlns='http://www.w3.org/2000/svg'>
@@ -155,7 +155,7 @@ ${breadcrumb}
 <!-- Desktop Item Navigation -->
 <div bis_skin_checked='1' class='is-hidden-tablet-and-below page-tabs'>
 <ul>
-<li class='selected'><a class='js-item-navigation-item-details t-link -decoration-none' href='${page.canonical}'>Item Details</a>
+<li class='selected'><a class='js-item-navigation-item-details t-link -decoration-none' href='${url}'>Item Details</a>
 </li>
 <li><a class='js-item-navigation-reviews t-link -decoration-none' href=''><span>Reviews</span><span>
 <div bis_skin_checked='1' class='rating-detailed-small'>
@@ -260,9 +260,9 @@ ${breadcrumb}
 </div>
 <div bis_skin_checked='1' class='page-tabs'>
 <ul class='right item-bookmarking__left-icons_hidden' data-view='bookmarkStatesLoader'>
-<li class='js-favorite-widget item-bookmarking__control_icons--favorite' data-item-id='8988002'><a class='t-link -decoration-none' data-view='modalAjax' href='${page.canonical}'><span class='item-bookmarking__control--label'>Add to Favorites</span></a>
+<li class='js-favorite-widget item-bookmarking__control_icons--favorite' data-item-id='8988002'><a class='t-link -decoration-none' data-view='modalAjax' href='${url}'><span class='item-bookmarking__control--label'>Add to Favorites</span></a>
 </li>
-<li class='js-collection-widget item-bookmarking__control_icons--collection' data-item-id='8988002'><a class='t-link -decoration-none' data-view='modalAjax' href='${page.canonical}'><span class='item-bookmarking__control--label'>Add to Collection</span></a>
+<li class='js-collection-widget item-bookmarking__control_icons--collection' data-item-id='8988002'><a class='t-link -decoration-none' data-view='modalAjax' href='${url}'><span class='item-bookmarking__control--label'>Add to Collection</span></a>
 </li>
 </ul>
 </div>
@@ -280,7 +280,7 @@ ${breadcrumb}
                         "items": [{
                             "affiliation": "${page.name}",
                             "item_id": 8988002,
-                            "item_name": "${page.title}",
+                            "item_name": "${escapeHTML(post.title)}",
                             "item_brand": "tokopress",
                             "item_category": "wordpress",
                             "item_category2": "ecommerce",
@@ -302,13 +302,13 @@ ${breadcrumb}
 <ul class='item-bookmarking__left-icons' data-view='bookmarkStatesLoader'>
 <li class='item-bookmarking__control_icons--favorite'>
 <span>
-<a data-view='modalAjax' href='${page.canonical}' title='Add to Favorites'><span class='item-bookmarking__control--label'>Add to
+<a data-view='modalAjax' href='${url}' title='Add to Favorites'><span class='item-bookmarking__control--label'>Add to
                                                             Favorites</span></a>
 </span>
 </li>
 <li class='item-bookmarking__control_icons--collection'>
 <span>
-<a data-view='modalAjax' href='${page.canonical}' title='Add to Collection'>
+<a data-view='modalAjax' href='${url}' title='Add to Collection'>
 <span class='item-bookmarking__control--label'>Add to
                                                             Collection</span>
 </a>
@@ -318,8 +318,8 @@ ${breadcrumb}
 </div>
 <div bis_skin_checked='1' class='box--no-padding'>
 <div bis_skin_checked='1' class='item-preview live-preview-btn--blue -preview-live'>
-<a href='https://server1.mrferdy.workers.dev' target='_blank'><img alt='${page.title} - WooCommerce eCommerce' height='500' sizes='(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px' src='${postImage(og,post.title)}' srcset='${postImage(og,post.title)}' width='500'/></a>
-<div bis_skin_checked='1' class='js- item-preview-image__gallery' data-title='${page.title} - WooCommerce eCommerce Screenshots Gallery' data-url='marketica-marketplace-wordpress-theme/screenshots/modal/8988002'>
+<a href='https://server1.mrferdy.workers.dev' target='_blank'><img alt='${escapeHTML(post.title)} - WooCommerce eCommerce' height='500' sizes='(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px' src='${postImage(og,post.title)}' srcset='${postImage(og,post.title)}' width='500'/></a>
+<div bis_skin_checked='1' class='js- item-preview-image__gallery' data-title='${escapeHTML(post.title)} - WooCommerce eCommerce Screenshots Gallery' data-url='marketica-marketplace-wordpress-theme/screenshots/modal/8988002'>
 <a class='is-hidden' href='https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/00-marketica-preview-sale37.jpg'>MARKETICA_PREVIEW/00-marketica-preview-sale37.jpg</a>
 <a class='is-hidden' href='https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/01_marketica2_homepage.png'>MARKETICA_PREVIEW/01_marketica2_homepage.png</a>
 <a class='is-hidden' href='https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/02_marketica2_shop_page.png'>MARKETICA_PREVIEW/02_marketica2_shop_page.png</a>
