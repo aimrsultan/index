@@ -304,8 +304,8 @@ ${breadcrumb}
 <div bis_skin_checked='1' class='item-preview live-preview-btn--blue -preview-live'>
 <a href='https://server1.mrferdy.workers.dev' target='_blank'>
 
-<img alt='- WooCommerce eCommerce' height='500' sizes='(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px' src='${postImage(og,post.title)}' srcset='${postImage(og,post.title)}' width='500'/></a>
-<div bis_skin_checked='1' class='js- item-preview-image__gallery' src='${postImage(og,post.title)}' data-url='marketica-marketplace-wordpress-theme/screenshots/modal/8988002'>
+<img alt='- WooCommerce eCommerce' height='500' sizes='(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px' src='${postImage}' srcset='${postImage}' width='500'/></a>
+<div bis_skin_checked='1' class='js- item-preview-image__gallery' src='${postImage}' data-url='marketica-marketplace-wordpress-theme/screenshots/modal/8988002'>
 
 
 
