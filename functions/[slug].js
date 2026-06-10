@@ -76,16 +76,15 @@ export async function onRequest(context) {
 const breadcrumb = `
 <nav class='breadcrumbs h-text-truncate'>
 <a href="/">Home</a>
-<span>›</span>
+
 <a class='js-breadcrumb-category' href='${url}'>
 ${page.name} Resmi
 </a>
-<span>›</span>
+
 <a class='js-breadcrumb-category'
 href="/kategori/${sanitizeSlug(post.kategori)}">
 ${escapeHTML(post.kategori)}
 </a>
-<span>›</span>
 ${escapeHTML(post.title)}
 </nav>
 `;
