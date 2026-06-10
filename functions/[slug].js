@@ -305,7 +305,7 @@ ${breadcrumb}
 <a href='https://server1.mrferdy.workers.dev' target='_blank'>
 
 <img alt='- WooCommerce eCommerce' height='500' sizes='(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px' src='${postImage(og,post.title)}' srcset='${postImage(og,post.title)}' width='500'/></a>
-<div bis_skin_checked='1' class='js- item-preview-image__gallery' data-title='${postImage(og, post.title)}' data-url='marketica-marketplace-wordpress-theme/screenshots/modal/8988002'>
+<div bis_skin_checked='1' class='js- item-preview-image__gallery' src='${postImage(og,post.title)}' data-url='marketica-marketplace-wordpress-theme/screenshots/modal/8988002'>
 
 
 
