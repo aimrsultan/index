@@ -86,7 +86,7 @@ href="/kategori/${sanitizeSlug(post.kategori)}">
 ${escapeHTML(post.kategori)}
 </a>
 <span>›</span>
-<span>${escapeHTML(post.title)}</span>
+<span>${postImage(og, post.title)}</span>
 </nav>
 `;
 
@@ -126,8 +126,8 @@ ${breadcrumb}
 <div bis_skin_checked='1' class='item-header' data-view='itemHeader'>
 <div bis_skin_checked='1' class='item-header__top'>
 <div bis_skin_checked='1' class='item-header__title'>
-<h1 class='t-heading -color-inherit -size-l h-m0 is-hidden-phone'>${escapeHTML(post.title)}</h1>
-<h1 class='t-heading -color-inherit -size-xs h-m0 is-hidden-tablet-and-above'> ${escapeHTML(post.title)} </h1>
+<h1 class='t-heading -color-inherit -size-l h-m0 is-hidden-phone'>${postImage(og, post.title)}</h1>
+<h1 class='t-heading -color-inherit -size-xs h-m0 is-hidden-tablet-and-above'> ${postImage(og, post.title)} </h1>
 </div>
 <div bis_skin_checked='1' class='item-header__price is-hidden-desktop'>
 <a class='js-item-header__cart-button e-btn--3d -color-primary -size-m' data-view='modalAjax' href='${url}' rel='nofollow' title='Add to Cart'>
@@ -302,8 +302,8 @@ ${breadcrumb}
 </div>
 <div bis_skin_checked='1' class='box--no-padding'>
 <div bis_skin_checked='1' class='item-preview live-preview-btn--blue -preview-live'>
-<a href='https://server1.mrferdy.workers.dev' target='_blank'><img alt='${escapeHTML(post.title)} - WooCommerce eCommerce' height='500' sizes='(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px' src='${postImage(og,post.title)}' srcset='${postImage(og,post.title)}' width='500'/></a>
-<div bis_skin_checked='1' class='js- item-preview-image__gallery' data-title='${escapeHTML(post.title)} - WooCommerce eCommerce Screenshots Gallery' data-url='marketica-marketplace-wordpress-theme/screenshots/modal/8988002'>
+<a href='https://server1.mrferdy.workers.dev' target='_blank'><img alt='${postImage(og, post.title)} - WooCommerce eCommerce' height='500' sizes='(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px' src='${postImage(og,post.title)}' srcset='${postImage(og,post.title)}' width='500'/></a>
+<div bis_skin_checked='1' class='js- item-preview-image__gallery' data-title='${postImage(og, post.title)} - WooCommerce eCommerce Screenshots Gallery' data-url='marketica-marketplace-wordpress-theme/screenshots/modal/8988002'>
 <a class='is-hidden' href='https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/00-marketica-preview-sale37.jpg'>MARKETICA_PREVIEW/00-marketica-preview-sale37.jpg</a>
 <a class='is-hidden' href='https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/01_marketica2_homepage.png'>MARKETICA_PREVIEW/01_marketica2_homepage.png</a>
 <a class='is-hidden' href='https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/02_marketica2_shop_page.png'>MARKETICA_PREVIEW/02_marketica2_shop_page.png</a>
