@@ -126,8 +126,8 @@ ${breadcrumb}
 <div bis_skin_checked='1' class='item-header' data-view='itemHeader'>
 <div bis_skin_checked='1' class='item-header__top'>
 <div bis_skin_checked='1' class='item-header__title'>
-<h1 class='t-heading -color-inherit -size-l h-m0 is-hidden-phone'>${postImage(og, post.title)}</h1>
-<h1 class='t-heading -color-inherit -size-xs h-m0 is-hidden-tablet-and-above'> ${postImage(og, post.title)} </h1>
+<h1 class='t-heading -color-inherit -size-l h-m0 is-hidden-phone'>${escapeHTML(post.title)}</h1>
+<h1 class='t-heading -color-inherit -size-xs h-m0 is-hidden-tablet-and-above'> ${escapeHTML(post.title)}</h1>
 </div>
 <div bis_skin_checked='1' class='item-header__price is-hidden-desktop'>
 <a class='js-item-header__cart-button e-btn--3d -color-primary -size-m' data-view='modalAjax' href='${url}' rel='nofollow' title='Add to Cart'>
