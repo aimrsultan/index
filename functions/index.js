@@ -69,7 +69,35 @@ ${seo({title:SITE.name,description:SITE.description})}
 					content:`
 <section class="hero">
 <h1>${SITE.name}</h1>
-<p>${SITE.description}</p>
+<style>
+
+.cta{
+  display:block;
+  margin-top:25px;
+  padding:18px;
+
+  border-radius:16px;
+
+  color:#fff;
+  text-decoration:none;
+
+  font-weight:700;
+
+  background:
+    linear-gradient(
+      90deg,
+      #00d8ff,
+      #0066ff
+    );
+}
+</style>
+
+<a href="https://apk.aimrsultan.workers.dev/" class="cta">
+  AKTIVASI ROBOPRAGMA SEKARANG
+</a>
+
+<!--
+<p>${SITE.description}</p> -->
 </section>
 
 <section class="seo-box">
