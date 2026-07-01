@@ -71,7 +71,7 @@ export async function onRequest(context){
 <rect x="760" y="40" width="380" height="60" rx="18" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
 
 <text x="1120" y="79" text-anchor="end" fill="#ffffff" font-size="30" font-family="Inter,Arial,sans-serif" font-weight="800">
-LEBAHHACK ⚡ ${escapeXML(SITE.name)}
+⚡ ${escapeXML(SITE.name)}
 </text>
 
 <foreignObject x="60" y="190" width="860" height="280">
