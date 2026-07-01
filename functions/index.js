@@ -92,13 +92,16 @@ ${seo({title:SITE.name,description:SITE.description})}
 }
 </style>
 
-<a href="https://apk.aimrsultan.workers.dev/" class="cta">
-  AKTIVASI ROBOPRAGMA SEKARANG
-</a>
+
 
 <!--
 <p>${SITE.description}</p> -->
 </section>
+
+<a href="https://apk.aimrsultan.workers.dev/" class="cta">
+  AKTIVASI AI MR SULTAN SEKARANG
+</a>
+
 
 <section class="seo-box">
 <h2>Informasi Aplikasi Penghasil Cuan</h2>
