@@ -66,7 +66,23 @@ ${seo({title:SITE.name,description:SITE.description})}
 }
 </script>
 `,
-					content:`
+					content:`<section class="hero">
+<div class="hero-box">
+<span class="hero-badge">⚡ SEO MODERN</span>
+<h1>${SITE.name}</h1>
+<p>Tutorial SEO, AI, blogging, dan teknologi modern Indonesia</p>
+<div class="hero-btns">
+<a href="#latest" class="btn">Artikel</a>
+<a href="/rss.xml" class="btn btn2">RSS</a>
+</div>
+</div>
+</section>
+
+
+
+
+
+					
 <section class="hero">
 <h1>${SITE.name}</h1>
 <style>
