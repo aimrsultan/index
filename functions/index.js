@@ -82,41 +82,8 @@ ${seo({title:SITE.name,description:SITE.description})}
 
 
 
-					
-<section class="hero">
-<h1>${SITE.name}</h1>
-<style>
-
-.cta{
-  display:block;
-  margin-top:25px;
-  padding:18px;
-
-  border-radius:16px;
-
-  color:#fff;
-  text-decoration:none;
-
-  font-weight:700;
-
-  background:
-    linear-gradient(
-      90deg,
-      #00d8ff,
-      #0066ff
-    );
-}
-</style>
 
 
-
-<!--
-<p>${SITE.description}</p> -->
-</section>
-
-<a href="https://apk.aimrsultan.workers.dev/" class="cta">
-  AKTIVASI AI MR SULTAN SEKARANG
-</a>
 
 
 <section class="seo-box">
