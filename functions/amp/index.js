@@ -43,7 +43,7 @@ ${escapeHTML(p.title)}
 <h1>${SITE.name}</h1>
 <p>Tutorial SEO, AI, blogging, dan teknologi modern Indonesia</p>
 <div class="hero-btns">
-<a href="https://apk.aimrsultan.workers.dev/" class="btn">Aktivai</a>
+<a href="https://apk.aimrsultan.workers.dev/" class="btn">Aktivasi</a>
 <a href="https://app.aimrferdy.workers.dev/" class="btn btn2">Alternatif</a>
 </div>
 </div>
